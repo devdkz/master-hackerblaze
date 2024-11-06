@@ -1,0 +1,99 @@
+/* From Uiverse.io by ozgeozkaraa01 */ 
+
+.lging{
+    position: absolute;
+}
+.video-background {
+    width: 100vw;
+    height: 100vh;
+}
+.video-background video {
+    object-fit: cover;
+    width: 100vw;
+    opacity: 1;
+    height: 100vh;
+}
+.group svg{
+  color: #ff0000;
+}
+.group {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .input {
+    width: 100%;
+    height: 45px;
+    line-height: 30px;
+    padding: 0 5rem;
+    padding-left: 3rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f8fafc;
+    color: #0d0c22;
+    transition: .5s ease;
+  }
+  
+  .input::placeholder {
+    color: #94a3b8;
+  }
+  
+  .input:focus, input:hover {
+    outline: none;
+    border-color: rgb(255, 0, 0);
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgba(255, 0, 0, 0.3);
+  }
+  
+  .icon {
+    position: absolute;
+    left: 1rem;
+    fill: none;
+    width: 1rem;
+    height: 1rem;
+  }
+  .buttonEntrar{
+    margin-top: 1rem;
+  }
+  .spacetop{
+    width: 100%;
+    height: 3px;
+    margin-top: 1rem;
+    background-color: #ff000060;
+    border-radius: 5px;
+  }
+  .buttonEntrar button{
+    width: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+
+  .textAttDate svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textAttDate{
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+  }
+  #entrarButton button{
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  #entrarButton button:disabled{
+    background: #292f37;
+  }

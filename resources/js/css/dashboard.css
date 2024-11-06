@@ -1,0 +1,144 @@
+.appModal header small{
+    font-size: .7rem;
+    color: hsla(0, 0%, 100%, .5);
+  }
+  .appModal header h3 span{
+    color: #ff0000;
+  }
+  .appModal header h3{
+    font-size: 1.2rem;
+      font-weight: 600;
+  }
+  .appModal header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .appModal ul li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+    background: #ff0000;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+  .appModal ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .appModal ul{
+    margin-top: 2rem;
+      list-style-type: none;
+  }
+  .appModal{
+    z-index: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #202024;
+      padding: 1rem;
+  }
+  
+  .homeAppContent button svg{
+    margin-right: 1rem;
+  }
+  .homeAppContent button{
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: #202024;
+    border-radius: .5rem;
+    width: 100%;
+  }
+  .homeAppContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .textTitle div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ff0000;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+  }
+  .textTitle{
+    display: flex;
+      align-items: center;
+      margin: 2rem 0;
+      gap: 1rem;
+  }
+
+  .modalconectblaze{
+    background-color: #0000007a;
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    max-width: 800px;
+    height: 100%;
+  }
+  .modalLogin{
+    background-color: #202024;
+    width: 80%;
+    padding: 0.7rem;
+    border-radius: 10px;
+  }
+  .logoblaze{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .createAccount a{
+    color: #ff0000;
+    text-decoration: underline;
+  }
+  .createAccount{
+    font-size: 0.82rem;
+    display: flex;
+    justify-content: center;
+  }
+  .buttonLoginBlaze button:disabled{
+    background-color: #101012;
+  }
+  .buttonLoginBlaze button{
+    width: 100%;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+  }
+  .buttonLoginBlaze{
+    padding: 0.4rem;
+    width: 100%;
+  }
+  .inputblaze{
+    padding: 0.4rem;
+  }
+  .inputblaze input::placeholder{
+    font-size: 12px;
+  }
+  .inputblaze input{
+    width: 100%;
+    background: #101012;
+    border-radius: 5px;
+  }

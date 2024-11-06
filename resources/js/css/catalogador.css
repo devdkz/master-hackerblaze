@@ -1,0 +1,83 @@
+
+.games div.selected{
+    box-shadow: 0px 0px 10px 5px inset #ff000096;
+    color: #ccc;
+}
+.spinerv24{
+    position: absolute;
+    left: 50%;
+    margin-top: 1rem;
+    transform: translate(-50%,-0%);
+}
+.games div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid #ff0000;
+    padding: 0.4rem;
+    gap: 1rem;
+    align-items: center;
+    color: #ccc;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.listDoubleResults{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.horariosemi2{
+    text-align: center;
+}
+.resultdouble.black{
+    background-color: #262f3c;
+    padding: 0.4rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultdouble.white{
+    background-color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultdouble.red{
+    background-color: rgb(241, 44, 76);
+    padding: 0.4rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enumerateResults{
+    background-color: #181b1f;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 0.4rem;
+}
+.resultdouble .entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.7rem;
+    width: 1.7rem;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.horariosemi2{
+    font-size: 12px;
+}
+.games{
+    gap: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
